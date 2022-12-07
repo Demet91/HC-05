@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family:fantasy;
+    background-image: url(https://lafmacun.net/wp-content/uploads/2019/07/dunyanin-cesitli-yerlerinde-cekilmis-ayin-butun-guzelligini-yansitan-fotograflar.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+}
+h1{
+    padding: 20px 0;
+    text-align: center;
+}
+form{
+    background-image: linear-gradient(rgb(255, 0, 200), rgb(0, 110, 255));
+    width: fit-content;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+   
+}
+/** label inline elementtir dolayısıyla width property si doğrudan çalışmaz*/
+label{
+display: inline-block;
+width: 100px;
+}
+.lang-div,.gender-div{
+    display: inline-block;
+}
+
+
+.lang-div,.gender-div label{
+    width: auto;
+    margin-right: 10px;
+}
+.inputs {
+    border-radius:  5px;
+    width: 300px;
+    padding: 10px 10px;
+    margin-bottom:20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.radio-check{
+    margin-bottom: 20px;
+    /* margin-left: 10px; */
+}
+.buton-container{
+    text-align: center;
+}
+.buton-container input{
+   width: 100px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(173, 100, 173);
+   padding: 10px; 
+}
+.buton-container input:hover{
+    background-color: pink;
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+.textarea-div * {
+vertical-align: middle;
+}
